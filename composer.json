@@ -1,0 +1,19 @@
+{
+    "name": "jonexyz/open_weixin",
+    "type": "library",
+    "license": "MIT",
+    "description": "微信公众平台创建第三方应用",
+    "authors": [
+        {
+            "name": "jone",
+            "email": "abc@jone.xyz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Jonexyz\\":"src/"
+        }
+    }
+}
