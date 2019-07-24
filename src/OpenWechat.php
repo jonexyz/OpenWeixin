@@ -22,7 +22,7 @@ class OpenWechat
 
     public function __construct($username,$password)
     {
-        $curr_path = dirname(__FILE__).DIRECTORY_SEPARATOR.'data'.DIRECTORY_SEPARATOR.$username;
+        $curr_path = dirname(__FILE__).DIRECTORY_SEPARATOR.'data'.DIRECTORY_SEPARATOR.md5($username);
 
         $this->cookie_path = $curr_path.DIRECTORY_SEPARATOR.'cookie.cookie';
         $this->file_path = $curr_path.DIRECTORY_SEPARATOR.'token.txt';
