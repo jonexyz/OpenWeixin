@@ -9,7 +9,7 @@
             "email": "abc@jone.xyz"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "alpha",
     "require": {
         "php": ">=7.0.0",
         "ext-curl": "*",
