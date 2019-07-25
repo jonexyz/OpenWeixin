@@ -289,7 +289,7 @@ class Api
 
         $data = $this->requestData($url);
 
-        $res = CurlRequest::curl($data);
+        $res = CurlRequest::curl($data,10,10);
 
         return $res;
 
